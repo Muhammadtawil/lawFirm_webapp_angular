@@ -53,10 +53,10 @@
     -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
     animation: sk-rotateplane 1.2s infinite ease-in-out;
 }
-.dark-mode {
+/* .dark-mode {
     background-color: black;
     color: white;
-  }
+  } */
 
 @-webkit-keyframes sk-rotateplane {
     0% {
@@ -215,6 +215,82 @@ h6,
     
   }
 }
+/* dark mode  */
+
+.dark-mode {
+  background-color: #1f2020;
+  color: #fff;
+.mb-0{
+  color:white;
+}
+.mb-1{
+  color:white;
+}
+.mb-2{
+  color:whitesmoke;
+}
+.mb-3{
+  color:rgb(43, 42, 42);
+}
+.mb-4{
+  color:wheat;
+}
+}
+
+.switch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vh;
+}
+
+.switch {
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  position: relative;
+  background-color: #ccc;
+  border-radius: 17px;
+  transition: background-color 0.3s ease;
+}
+
+.switch:before,
+.switch:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.switch:before {
+  left: 2px;
+  background-color: #fff;
+}
+
+.switch:after {
+  right: 2px;
+  background-color: #000;
+}
+
+input[type="checkbox"] {
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked + .switch:before {
+  transform: translateX(26px);
+}
+
+input[type="checkbox"]:checked + .switch:after {
+  transform: translateX(-26px);
+}
+
+input[type="checkbox"]:checked + .switch {
+  background-color: #6e6e6e;
+}
+
 
 /*** Navbar ***/
 
