@@ -170,7 +170,7 @@ h6,
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-.navbar-brand .custom-title {
+.custom-title {
   color: rgb(83, 164, 235);
   font-family: 'Pacifico', cursive;/* Use the custom font-family */
   text-shadow: 1x 1px 1px #aaa;
@@ -209,8 +209,8 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-  .custom-title{
-    font-size: 108vwpx;
+  .fancy{
+    font-size: 2vw;
     
   }
 }
