@@ -292,6 +292,8 @@ input[type="checkbox"]:checked + .switch {
 }
 
 
+
+
 /*** Navbar ***/
 
 .transparent-navbar {
@@ -319,6 +321,7 @@ input[type="checkbox"]:checked + .switch {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     color: var(--primary);
+    
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -334,7 +337,9 @@ input[type="checkbox"]:checked + .switch {
     .sticky-top.navbar-dark {
         position: relative;
         background: #FFFFFF;
+        width: 100%;
     }
+    
     .transparent-navbar{
       background-color: rgba(0, 0, 0, 0);
       z-index: 2;
