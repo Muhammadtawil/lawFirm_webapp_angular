@@ -168,8 +168,59 @@ h6,
     text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbar-brand .custom-title {
+  color: rgb(83, 164, 235);
+  font-family: 'Pacifico', cursive;/* Use the custom font-family */
+  text-shadow: 1x 1px 1px #aaa;
+  margin: 0;
+  padding-left: 0;
+  font-size: 3vw;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+
+}
+
+@media (max-width: 991.98px) {
+  .custom-title{
+    font-size: 108vwpx;
+    
+  }
+}
+
+.fancy {
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Pacifico', cursive;/* Use the custom font-family */
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+  
+  }
+}
+
+@media (max-width: 991.98px) {
+  .custom-title{
+    font-size: 108vwpx;
+    
+  }
+}
 
 /*** Navbar ***/
+
+.transparent-navbar {
+  background-color: rgba(185, 18, 18, 0.048); /* Set the background color with alpha (transparency) */
+}
+
 .navbar-dark .navbar-nav .nav-link {
     font-family: 'Nunito', sans-serif;
     position: relative;
@@ -180,6 +231,7 @@ h6,
     font-weight: 600;
     outline: none;
     transition: .5s;
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -205,6 +257,18 @@ h6,
     .sticky-top.navbar-dark {
         position: relative;
         background: #FFFFFF;
+    }
+    .transparent-navbar{
+      background-color: rgba(0, 0, 0, 0);
+      z-index: 2;
+      opacity: 1;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    
+
+  
     }
 
     .navbar-dark .navbar-nav .nav-link,
