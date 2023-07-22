@@ -30,7 +30,8 @@ themeSwitch.addEventListener("change", () => {
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
     });
-    
+    // Navbar 
+   
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
     const $dropdownToggle = $(".dropdown-toggle");
