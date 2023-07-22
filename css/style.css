@@ -777,7 +777,7 @@ input[type=password],
 input[type=tel],
 button,
 button[type=submit] {
-  -moz-appearance: none;
+  /* -moz-appearance: none; */
   box-shadow: none !important;
 }
 
@@ -2418,14 +2418,14 @@ div#preloader {
 
 .post-img {
   display: inline-block;
-  float: left;
+  /* float: left; */
   padding: 0 5px;
   width: 35%;
 }
 
 .pst-content {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 65%;
 }
 
@@ -2559,7 +2559,7 @@ div#preloader {
 
 .sharing-icon {
   display: inline-block;
-  float: right;
+  /* float: right; */
   padding: 13px 10px;
 }
 
@@ -2635,7 +2635,7 @@ h3.comment-reply-title {
 
 .author-avatar {
   display: inline-block;
-  float: left;
+  /* float: left; */
   width: 10%;
 }
 
