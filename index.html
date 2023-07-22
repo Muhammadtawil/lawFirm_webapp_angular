@@ -48,7 +48,8 @@
             <h4 class="m-0" style="color: rgb(83, 164, 235) ;font-size: 36px;"><i class="me-2"></i>Lawyer</h4>
         </a> -->
         <a href="index.html" class="navbar-brand p-0">
-            <h1><span class="fancy ">LawFirm</span></h1>
+            <h1><span class="fancy ">Ghazal LawFirm</span></h1>
+            
           </a>
       
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -71,7 +72,7 @@
               
                     <input type="checkbox" id="theme-switch">
                     <label for="theme-switch" class="switch"></label>
-             
+                  
           
     </nav>
     
@@ -821,53 +822,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 <script></script>
-<script>
- $(document).ready(function(){
-        $('.floatingButton').on('click',
-            function(e){
-                e.preventDefault();
-                $(this).toggleClass('open');
-                if($(this).children('.fa').hasClass('fa-plus'))
-                {
-                    $(this).children('.fa').removeClass('fa-plus');
-                    $(this).children('.fa').addClass('fa-close');
-                } 
-                else if ($(this).children('.fa').hasClass('fa-close')) 
-                {
-                    $(this).children('.fa').removeClass('fa-close');
-                    $(this).children('.fa').addClass('fa-plus');
-                }
-                $('.floatingMenu').stop().slideToggle();
-            }
-        );
-        $(this).on('click', function(e) {
-          
-            var container = $(".floatingButton");
-            // if the target of the click isn't the container nor a descendant of the container
-            if (!container.is(e.target) && $('.floatingButtonWrap').has(e.target).length === 0) 
-            {
-                if(container.hasClass('open'))
-                {
-                    container.removeClass('open');
-                }
-                if (container.children('.fa').hasClass('fa-close')) 
-                {
-                    container.children('.fa').removeClass('fa-close');
-                    container.children('.fa').addClass('fa-plus');
-                }
-                $('.floatingMenu').hide();
-            }
-          
-            // if the target of the click isn't the container and a descendant of the menu
-            if(!container.is(e.target) && ($('.floatingMenu').has(e.target).length > 0)) 
-            {
-                $('.floatingButton').removeClass('open');
-                $('.floatingMenu').stop().slideToggle();
-            } 
-        });
-    });
 
-</script>
 </body>
 
 </html>
