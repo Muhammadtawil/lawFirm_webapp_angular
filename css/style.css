@@ -367,7 +367,7 @@ input[type="checkbox"]:checked + .switch {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1170px) {
     .navbar-dark {
         position: absolute;
         width: 100%;
