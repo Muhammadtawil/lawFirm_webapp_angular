@@ -204,6 +204,7 @@ h6,
     text-align: center;
     line-height: 1;
     display: flex;
+    margin: 0%;
   
   }
 }
@@ -266,7 +267,9 @@ h6,
       top: 0;
       left: 0;
       width: 100%;
-    
+    .navbar-collapse{
+      background-color: white;
+    }
 
   
     }
