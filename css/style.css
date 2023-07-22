@@ -211,7 +211,9 @@ h6,
 
 @media (max-width: 991.98px) {
   .fancy{
-    font-size: 8vw;
+    font-size: 5vw;
+    margin: 0%;
+    padding-left: 0%;
     
   }
 }
@@ -324,6 +326,7 @@ input[type="checkbox"]:checked + .switch {
 
 .navbar-dark .navbar-brand h1 {
     color: #FFFFFF;
+ 
 }
 
 .navbar-dark .navbar-toggler {
