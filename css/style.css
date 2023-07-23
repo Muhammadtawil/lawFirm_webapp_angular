@@ -3603,7 +3603,7 @@ body {
   padding-bottom: 12rem;
 }
 
- .container {
+ .news_container {
   width: min(100% - 2rem, 120rem);
   margin-inline: auto;
 }
@@ -3612,11 +3612,7 @@ body {
   padding-bottom: 2.5rem;
 }
 
-.header__inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .header__list {
   display: flex;
