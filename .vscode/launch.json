@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "/media/muhammad/ecdfcf23-7e6f-4d34-b448-7b295e3f835c/muhammad/apps/web/angular/final/finalweb/index.html"
+        }
+    ]
+}
