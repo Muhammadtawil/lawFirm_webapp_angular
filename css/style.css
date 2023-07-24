@@ -274,8 +274,8 @@ color: white;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
 }
-.fw-bold{
-color: white;
+.blog-title-h{
+  color: white;
 }
 
 }
