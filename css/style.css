@@ -230,6 +230,21 @@ h6,
 .dark-mode {
   background-color: #1f2020;
   color: #fff;
+
+/* .nav-item{
+  color: black;
+}
+.nav-link{
+  color: black;
+} */
+.navbar-nav{
+  color: #000;
+}
+.ready-btn{
+  color: #000;
+  background-color: wheat;
+  font-style: var(--light);
+}
 .mb-0{
   color:white;
 }
@@ -274,8 +289,24 @@ color: white;
   text-transform: uppercase;
   transition: all 0.4s ease 0s;
 }
-
-
+.blog-title { 
+  color:white;
+}
+.blog_title h5 a{
+  color: white;
+}
+.blog-details{
+  color: white;
+}
+.blog_title  h5{
+  color: rgb(243, 243, 248); /* Change 'blue' to any valid CSS color value */
+}
+.post__header{
+  color: wheat;
+}
+.post__text{
+  color: white;
+}
 }
 
 .switch-container {
