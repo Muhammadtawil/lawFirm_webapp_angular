@@ -237,6 +237,9 @@ h6,
 .nav-link{
   color: black;
 } */
+.mb-9{
+  color: #000;
+}
 .navbar-nav{
   color: #000;
 }
@@ -4319,3 +4322,6 @@ body {
      opacity: 1;
    }
  }
+
+
+
