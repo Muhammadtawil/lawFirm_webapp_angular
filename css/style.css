@@ -5,7 +5,15 @@
     --light: #EEF9FF;
     --dark: #091E3E;
 } */
-:root,
+
+:root {
+  --color-primary-1: hsl(35, 77%, 62%);
+  --color-primary-2: hsl(5, 85%, 63%);
+  --color-neutral-1: hsl(36, 100%, 99%);
+  --color-neutral-2: hsl(233, 8%, 79%);
+  --color-neutral-3: hsl(236, 13%, 42%);
+  --color-neutral-4: hsl(240, 100%, 5%);
+}
 :root.light {
     --primary: #06A3DA;
     --secondary: #34AD54;
@@ -202,7 +210,7 @@ h6,
     font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    line-height: 1;
+    line-height: 2;
     display: flex;
     margin: 0%;
   
@@ -3503,8 +3511,8 @@ span.email-notes {
 
 @media screen and (max-width: 600px) {
   body {
-    padding-top: 2.5rem;
-    padding-bottom: 8rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
 
   .header__nav {
@@ -3566,14 +3574,7 @@ span.email-notes {
 /* News  */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 
-:root {
-  --color-primary-1: hsl(35, 77%, 62%);
-  --color-primary-2: hsl(5, 85%, 63%);
-  --color-neutral-1: hsl(36, 100%, 99%);
-  --color-neutral-2: hsl(233, 8%, 79%);
-  --color-neutral-3: hsl(236, 13%, 42%);
-  --color-neutral-4: hsl(240, 100%, 5%);
-}
+
 
 html {
   box-sizing: border-box;
