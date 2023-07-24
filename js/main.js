@@ -103,11 +103,11 @@ themeSwitch.addEventListener("change", () => {
     });
 
 
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 2000
-    });
+    // // Facts counter
+    // $('[data-toggle="counter-up"]').counterUp({
+    //     delay: 10,
+    //     time: 2000
+    // });
     
     
     // Back to top button
@@ -188,6 +188,28 @@ themeSwitch.addEventListener("change", () => {
 //   }
 // });
 
-    
+// blogs new
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:true,
+    autoplay:true,   
+    smartSpeed: 3000, 
+    autoplayTimeout:7000,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
 })(jQuery);
 
