@@ -260,7 +260,9 @@ titleElement.addEventListener('mouseup', () => {
 
 function goToAdminPanel() {
   // Replace the 'your-admin-panel-url' with the actual URL of your admin panel
-  window.location.href = 'file:///media/muhammad/ecdfcf23-7e6f-4d34-b448-7b295e3f835c/muhammad/apps/web/angular/final/finalweb/dash_index.html'}
+  window.location.href = 'dash_index.html';
+
+}
 
 
 })(jQuery);
