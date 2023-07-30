@@ -1,5 +1,34 @@
-import app from "./server";
-import mongodb from "mongodb"
+// import app from "./server";
+// import mongodb from "mongodb"
+// // import NewsDAO from "./dao/newsDAO.js";
+
+// const MongoClient=mongodb.MongoClient;
+// const userName='muhammadtawil';
+// const Password='Dewars112';
+// const uri='mongodb+srv://muhammadtawil:${Password}@cluster0.nc4cml5.mongodb.net/?retryWrites=true&w=majority';
+// const port=8000;
+
+// MongoClient.connect(
+//     uri,
+//     {
+// maxPoolSize:50,
+// wtimeoutMS:2500,
+// userName:userName,
+// Password:Password,
+// useBigInt64:true,
+
+//     }
+// )
+// .catch(err=>{
+//     console.error(err.stack)
+//     process.exit(1)
+// }).then(async client =>{
+// app.listen(port,()=>{
+//     console.log('listining on port ${port}')
+// })
+
+// })
+
 (function ($) {
     "use strict";
 
@@ -214,6 +243,24 @@ $('.owl-carousel').owlCarousel({
 })
 
 // popup Not
+
+let longPressTimer;
+
+const titleElement = document.getElementById('pageTitle');
+
+titleElement.addEventListener('mousedown', () => {
+  longPressTimer = setTimeout(() => {
+    goToAdminPanel();
+  }, 5000); // 5000 milliseconds (5 seconds) for long press duration
+});
+
+titleElement.addEventListener('mouseup', () => {
+  clearTimeout(longPressTimer);
+});
+
+function goToAdminPanel() {
+  // Replace the 'your-admin-panel-url' with the actual URL of your admin panel
+  window.location.href = 'file:///media/muhammad/ecdfcf23-7e6f-4d34-b448-7b295e3f835c/muhammad/apps/web/angular/final/finalweb/dash_index.html'}
 
 
 })(jQuery);
